@@ -1,0 +1,14 @@
+name: zebrafish
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - numpy
+  - opencv
+  - pillow
+  - scikit-learn
+  - tensorflow=2.8.1
+  - tqdm
+  - pip:
+      - tensorflow-hub==0.12.0
+prefix: ~/.conda/envs/zebrafish
