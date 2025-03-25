@@ -1,5 +1,7 @@
-# Zebra_Code_And_Data
-Source code and data used for Zebrafish identification Sci Rep manuscript.
+# Zebrafish identification with deep CNN and ViT architectures using a rolling training window [\[paper\]](https://www.nature.com/articles/s41598-025-86351-x)
+**This repository provides the code and data for our *Scientific Reports* paper "Zebrafish identification with deep CNN and ViT architectures using a rolling training window".**
+### [Jason Puchalla](https://phy.princeton.edu/people/jason-puchalla), [Aaron Serianni](https://aaronserianni.com/), Bo Deng
+> **Abstract:** *Zebrafish are widely used in vertebrate studies, yet minimally invasive individual tracking and identification in the lab setting remain challenging due to complex and time-variable conditions. Advancements in machine learning, particularly neural networks, offer new possibilities for developing simple and robust identification protocols that adapt to changing conditions. We demonstrate a rolling window training technique suitable for use with open-source convolutional neural networks (CNN) and vision transformers (ViT) that shows promise in robustly identifying individual maturing zebrafish in groups over several weeks. The technique provides a high-fidelity method for monitoring the temporally evolving zebrafish classes, potentially significantly reducing the need for new training images in both CNN and ViT architectures. To understand the success of the CNN classifier and inform future real-time identification of zebrafish, we analyzed the impact of shape, pattern, and color by modifying the images of the training set and compared the test results with other prevalent machine learning models.*
 
 ## Table of Contents
 | Links                                                   |
@@ -390,5 +392,24 @@ positional arguments:
   data_dir              Data Directory
 ```
 
-## License
-TBD
+## Citation
+If you use our code for your paper or work, please cite:
+> Puchalla, J., Serianni, A. & Deng, B. Zebrafish identification with deep CNN and ViT architectures using a rolling training window. Sci Rep 15, 8580 (2025). https://doi.org/10.1038/s41598-025-86351-x
+```bibtex
+@article{puchalla_zebrafish_2025,
+	title = {Zebrafish identification with deep {CNN} and {ViT} architectures using a rolling training window},
+	volume = {15},
+	issn = {2045-2322},
+	url = {https://doi.org/10.1038/s41598-025-86351-x},
+	doi = {10.1038/s41598-025-86351-x},
+	number = {1},
+	journal = {Scientific Reports},
+	author = {Puchalla, Jason and Serianni, Aaron and Deng, Bo},
+	month = mar,
+	year = {2025},
+	pages = {8580},
+}
+```
+
+## Acknowledgements
+This publication was supported by the Princeton University Library Open Access Fund. The experiments presented in this work were performed on computational resources managed and supported by Princeton Research Computing, a consortium of groups including the Princeton Institute for Computational Science and Engineering PICSciE and Research Computing at Princeton University.
